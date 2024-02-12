@@ -23,14 +23,15 @@ This repository contains the code for an assignment on clustering techniques app
 - **PCA + Transform (PCA+T):** Combining PCA with feature transformation.
 - **PCA + Transform + Normalization (PCA+T+N):** Combining PCA, feature transformation, and normalization.
 
-## Instructions:
+## Dataset Details:
+- Number of Features: 8
+- Number of Rows: 440
 
-1. **Installation:** Clone this repository to your local machine.
+## Best Clustering Method:
+- **Hierarchical Clustering:** Based on the evaluation metrics and analysis, the hierarchical clustering method yielded the best results.
 
-    ```bash
-    git clone https://github.com/Akashdeep-k/Clustering_102103243.git
-    ```
+## Best Number of Clusters:
+- **4:** After experimentation and evaluation, the optimal number of clusters identified for the dataset was 4.
 
-2. **Usage:** Open and run the provided Jupyter Notebook (`clustering-and-preprocessing.ipynb`). Execute the clustering algorithms by running the appropriate cells for each technique and parameter combination.
-
-3. **Evaluation:** Analyze the results obtained for each clustering technique and preprocessing combination.
+## Best Silhouette Score:
+- **0.95:** The silhouette score, indicating the quality of clustering, was highest for the hierarchical clustering method with a score of 0.95.
